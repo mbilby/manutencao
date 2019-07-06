@@ -1,0 +1,9 @@
+*{
+    font-family: Courier New, Courier, monospace;
+}
+#status1{
+    color: red;
+}
+#status2{
+    color: blue;
+}
