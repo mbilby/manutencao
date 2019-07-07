@@ -26,13 +26,13 @@ try {
     $mail->Port       = 587;
     $mail->SMTPAuth   = true;
     $mail->SMTPSecure = 'tls';
-    $mail->Username   = 'adm.capmail@gmail.com';
-    $mail->Password   = 'teste23#';
+    $mail->Username   = 'email';
+    $mail->Password   = 'password';
 
     //Destinatario e remetente
 
-    $mail->SetFrom('adm.capmail@gmail.com', 'ADM');
-    $mail->addAddress('suporte.oraculo@gmail.com', 'Receber email');
+    $mail->SetFrom('email', 'ADM');
+    $mail->addAddress('email', 'Receber email');
     
 
     //conteudo 
